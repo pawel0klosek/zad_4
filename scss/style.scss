@@ -7,9 +7,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+// podczas mnożenia i dzielenia jeden argument musi być bez jednostki
 div {
-    height: functions.addition(2000px, 20, dz);
+    height: functions.addition(2000px, 20, d);
     width: 40vw;
     background-color: red;
 }
