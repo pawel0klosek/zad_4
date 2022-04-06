@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  height: 40vh;
+  width: 40vw;
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
