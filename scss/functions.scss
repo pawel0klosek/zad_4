@@ -1,0 +1,23 @@
+@use "sass:math";
+
+@function  addition ($num1, $num2, $argument)
+{
+    @if $argument== m {
+        $result: $num1 * $num2;
+        @return $result;   
+    }
+
+    @else if $argument== dz {
+        $result: math.div($num1, $num2);
+        @return $result;  
+    }
+    @else if $argument== o {
+        $result: $num1 - $num2;
+        @return $result;  
+    }
+    @else if $argument== d {
+        $result: $num1 + $num2;
+        @return $result;  
+    }
+  
+  }

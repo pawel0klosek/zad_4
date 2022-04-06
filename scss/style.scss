@@ -1,3 +1,5 @@
+@use "functions";
+
 body {
     margin: 0;
     height: 100vh;
@@ -7,7 +9,7 @@ body {
 }
 
 div {
-    height: 40vh;
+    height: functions.addition(2000px, 20, dz);
     width: 40vw;
     background-color: red;
 }

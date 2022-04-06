@@ -7,7 +7,7 @@ body {
 }
 
 div {
-  height: 40vh;
+  height: 100px;
   width: 40vw;
   background-color: red;
 }
